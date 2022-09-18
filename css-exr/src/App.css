@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.navBar {
+  background-color: black;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navBar .item {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+}
+
+.footer li {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .navBar {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+/* 481-768 */
+@media (min-width: 481px) and (max-width: 768px) {
+  .navBar {
+    /* background-color: red; */
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+/*769-1200 */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .navBar {
+    /* background-color: red; */
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+}
